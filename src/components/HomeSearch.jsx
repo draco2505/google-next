@@ -13,7 +13,7 @@ const HomeSearch = () => {
     e.preventDefault();
     if (!input) return;
     const searchTerm = input.trim();
-    router.push(`/search?query=${searchTerm}`);
+    router.push(`/search/web?query=${searchTerm}`);
     window.open(url, '_blank');
   }
 
